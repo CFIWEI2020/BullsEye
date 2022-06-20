@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0DF82572859D89A0029AF70 /* aboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DF82562859D89A0029AF70 /* aboutViewController.swift */; };
+		E0DF82592859E26D0029AF70 /* EullsRedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DF82582859E26D0029AF70 /* EullsRedViewController.swift */; };
 		E0EB79D12839E4CC00587A72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EB79D02839E4CC00587A72 /* AppDelegate.swift */; };
 		E0EB79D32839E4CC00587A72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EB79D22839E4CC00587A72 /* SceneDelegate.swift */; };
 		E0EB79D52839E4CC00587A72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EB79D42839E4CC00587A72 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E0DF82562859D89A0029AF70 /* aboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutViewController.swift; sourceTree = "<group>"; };
+		E0DF82582859E26D0029AF70 /* EullsRedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EullsRedViewController.swift; sourceTree = "<group>"; };
 		E0EB79CD2839E4CC00587A72 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0EB79D02839E4CC00587A72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0EB79D22839E4CC00587A72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				E0EB79D22839E4CC00587A72 /* SceneDelegate.swift */,
 				E0EB79D42839E4CC00587A72 /* ViewController.swift */,
 				E0EB79D62839E4CC00587A72 /* Main.storyboard */,
+				E0DF82582859E26D0029AF70 /* EullsRedViewController.swift */,
+				E0DF82562859D89A0029AF70 /* aboutViewController.swift */,
 				E0EB79D92839E4CD00587A72 /* Assets.xcassets */,
 				E0EB79DB2839E4CD00587A72 /* LaunchScreen.storyboard */,
 				E0EB79DE2839E4CD00587A72 /* Info.plist */,
@@ -140,7 +146,9 @@
 			files = (
 				E0EB79D52839E4CC00587A72 /* ViewController.swift in Sources */,
 				E0EB79D12839E4CC00587A72 /* AppDelegate.swift in Sources */,
+				E0DF82572859D89A0029AF70 /* aboutViewController.swift in Sources */,
 				E0EB79D32839E4CC00587A72 /* SceneDelegate.swift in Sources */,
+				E0DF82592859E26D0029AF70 /* EullsRedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +301,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,6 +330,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
